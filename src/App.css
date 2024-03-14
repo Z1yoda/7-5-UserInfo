@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.container {
+  border-top: 1px solid rgb(53, 52, 52);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+h1 {
+  font-weight: 700;
+  margin-top: 40px;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#new-item {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(53, 52, 52);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#add-btn {
+  padding: 10px 20px;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#todo-list {
+  margin-top: 30px;
+}
+
+#todo-list li {
+  border: 1px solid rgb(53, 52, 52);
+  width: 500px;
+  padding-left: 10px;
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  width: 60px;
+  height: 35px;
+  border: 1px solid rgb(53, 52, 52);
+  border-radius: 8px;
+  cursor: pointer;
+}
