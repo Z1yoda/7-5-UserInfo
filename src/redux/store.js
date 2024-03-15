@@ -1,9 +1,9 @@
 import { combineReducers, createStore } from "redux";
-import { totoReducer } from "./todoReducer";
+import { userInfoReducer } from "./userInfoRedux";
 
 
 const rootReducer = combineReducers({
-    todos: totoReducer,
+    users: userInfoReducer
 });
 
 export const store = createStore(rootReducer);
